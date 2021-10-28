@@ -25,5 +25,3 @@ countTime = setInterval(() => {
      seconds+= 0.1;
 
 }, 100);
-
-console.log(x);
