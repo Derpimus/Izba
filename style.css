@@ -14,37 +14,57 @@ body {
     background-color: #333;
     text-align: center;
 }
-p{
+
+p {
     font-size: 30px;
     color: whitesmoke;
 }
-.money{
+
+.money {
     font-size: 50px;
     color: royalblue;
 }
-.headder{
+
+.headder {
     font-size: 40px;
 }
-span{
+
+span {
     font-size: 50px;
     color: whitesmoke;
     text-shadow: 0px 0px 10px black;
 }
-.gold{
+
+.gold {
     color: gold;
 }
 
+img {
+    width: 80vw;
+    margin: 50px;
+    box-shadow: 8px 8px 24px 0px black;
+    border-radius: 25px;
+}
+
 @media screen and (max-width: 600px) {
-    p{
+    p {
         font-size: 20px;
     }
-    .money{
+
+    .money {
         font-size: 30px;
     }
-    .headder{
+
+    .headder {
         font-size: 30px;
     }
-    span{
+
+    span {
         font-size: 30px;
     }
-  }
+
+    img {
+        margin: 10px;
+        border-radius: 5px;
+    }
+}
