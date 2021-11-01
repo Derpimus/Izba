@@ -15,13 +15,13 @@ countTime = setInterval(() => {
 
      karaEuro.innerHTML = `${Math.floor((1000000/86400)* (x+seconds))}`
      karaPln.innerHTML = `${Math.floor((1000000/86400)*(x+seconds) * 4.62)}`
-     karaSasin.innerHTML = `${((1000000/86400)* (x+seconds) / 70000000)*4.62.toFixed(10)}`
+     karaSasin.innerHTML = `${(((1000000/86400)* (x+seconds) / 70000000)*4.62).toFixed(6)}`
      seconds += 0.1;
 
 
      karaEuro2.innerHTML = `${Math.floor((1000000/86400)* seconds)}`
      karaPln2.innerHTML = `${Math.floor((1000000/86400)* seconds * 4.62)}`
-     karaSasin2.innerHTML = `${((1000000/86400)* seconds / 70000000)*4.62.toFixed(10)}`
+     karaSasin2.innerHTML = `${(((1000000/86400)* seconds / 70000000)*4.62).toFixed(6)}`
      seconds += 0.1;
 
 }, 100);
